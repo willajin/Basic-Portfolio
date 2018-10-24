@@ -1,0 +1,112 @@
+.header-container {
+    position:relative;
+    top:0;
+    width:960px;
+    height:30px;
+    margin:0 auto;
+    background-color:white;
+}
+
+.name {
+    position:absolute;
+    top:60px;
+    left:-30px;
+    padding:20px 50px 20px 50px;
+    background-color:gray;
+    color:white;
+    line-height:30px;
+    font-size:40px;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navigation {
+    position:absolute;
+    top:80px;
+    right:-30px;
+}
+
+.navigation * {
+    padding:0px;
+    margin:0px;
+}
+
+.navigation li {
+    list-style:none;
+    float:left;
+}
+
+.navigation li a {
+    width:100px;
+    height:30px;
+    padding:20px;
+    text-decoration:none;
+    color:gray;
+    text-align:center;
+}
+
+.navigation li a:hover {
+    background-color:lightgray;
+    color:white;
+}
+
+.container {
+    position:relative;
+    top:100px;
+    height:700px;
+    background-color:lightgray;
+}
+
+.content {
+    position:relative;
+    top:30px;
+    width:960px;
+    height:500px;
+    margin:0 auto;
+    padding:30px;
+    background-color:white;
+}
+
+.content-header {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:gray;
+}
+
+#bio-image {
+    width:200px;
+    height:200px;
+    padding-top:10px;
+    padding-right:20px;
+}
+
+.form-label {
+    padding:5px;   
+}
+
+#submitbutton {
+    margin-top:5px;
+    background-color:gray;
+    color:white;
+    padding:10px 20px 10px 20px;
+    border:2px solid gray;
+}
+
+#submitbutton:hover {
+    background-color:white;
+    color:gray;
+    border:2px solid white;
+}
+
+.portfolio-box {
+    float:left;
+    width:200px;
+    height:200px;
+    line-height:200px;
+    text-align:center;
+    background-color:gray;
+    color:white;
+}
+
+.portfolio-box:hover {
+    background-color:white;
+    color:gray;
+}
